@@ -1,9 +1,9 @@
 function init(){
 //add your javascrip between these two lines of code
  	//create variables
- 	var inputEntry = document.getElementById("entryinput");
- 	var inputButton = document.getElementById("entrybutton");
- 	var outputText = document.getElementById("textoutput");
+ 	var inputEntry = document.getElementById('entryinput');
+ 	var inputButton = document.getElementById('entrybutton');
+ 	var outputText = document.getElementById('textoutput');
  	
  	//create function to handle the event of the alert
  	function myEventHandler(){
@@ -12,6 +12,6 @@ function init(){
  	}
  	
  	//execute the myEventHandler() function when the button is pressed
- 	inputButton.addEventListener("click", myEventHandler);
+ 	inputButton.addEventListener('click', myEventHandler);
 }
 window.addEventListener('load', init);
