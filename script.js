@@ -7,13 +7,8 @@ function init(){
  	
  	//create function to handle the event of the alert
  	function myEventHandler(){
- 		if(inputEntry.value == ''){
- 			alert("No Input, Please Enter Text");
- 		}
- 		else{
- 		 	alert("Oleksandr Lemeha: " + inputEntry.value);
- 		 	outputText.innerHTML = inputEntry.value; 
- 		}
+ 		alert("Oleksandr Lemeha: " + inputEntry.value);
+ 		outputText.innerHTML = inputEntry.value;
  	}
  	
  	//execute the myEventHandler() function when the button is pressed
