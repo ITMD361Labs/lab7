@@ -3,7 +3,7 @@ function init(){
  	
  	
  	//create function to handle the event of the alert
- 	function myEventHandler(){
+ 	function myEventFunction(){
  		//create variables
 		var inputEntry = document.getElementById('entryinput');
 		var outputText = document.getElementById('textoutput');
@@ -13,6 +13,6 @@ function init(){
  	var inputButton = document.getElementById('entrybutton');
 
  	//execute the myEventHandler() function when the button is pressed
- 	inputButton.addEventListener('click', myEventHandler);
+ 	inputButton.addEventListener('click', myEventFunction);
 }
 window.addEventListener('load', init);
